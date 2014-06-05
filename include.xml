@@ -1,0 +1,12 @@
+<xml>
+	
+	<files id="libogg" >
+		
+		<compilerflag value="-I${LIB_PREFIX}/ogg/include/"/>
+		
+		<file name="${LIB_PREFIX}/ogg/src/bitwise.c" />
+		<file name="${LIB_PREFIX}/ogg/src/framing.c" />
+		
+	</files>
+	
+</xml>
