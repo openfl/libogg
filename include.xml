@@ -1,11 +1,11 @@
 <xml>
 	
-	<files id="libogg" >
+	<files id="native-ogg" >
 		
-		<compilerflag value="-I${LIB_PREFIX}/ogg/include/"/>
+		<compilerflag value="-I${NATIVE_LIB_PATH}/ogg/include/"/>
 		
-		<file name="${LIB_PREFIX}/ogg/src/bitwise.c" />
-		<file name="${LIB_PREFIX}/ogg/src/framing.c" />
+		<file name="${NATIVE_LIB_PATH}/ogg/src/bitwise.c" />
+		<file name="${NATIVE_LIB_PATH}/ogg/src/framing.c" />
 		
 	</files>
 	
